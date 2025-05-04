@@ -1,0 +1,19 @@
+.popup__form__submit {
+    border: none;
+    font-size: 30px;
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.popup__form__submit:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+
+.popup__form__submit:disabled {
+    cursor: not-allowed;
+    box-shadow: none;
+}

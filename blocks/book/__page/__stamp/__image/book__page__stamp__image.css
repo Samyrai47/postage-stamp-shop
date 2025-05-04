@@ -1,0 +1,14 @@
+.book__page__stamp__image {
+    flex-basis: 70%;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.book__page__stamp__image:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.book__page__stamp__image:hover {
+    cursor: pointer;
+}

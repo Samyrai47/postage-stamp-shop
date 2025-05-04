@@ -1,0 +1,8 @@
+.stamp {
+    fill: #fdf6e3;
+    stroke: #002b36;
+}
+
+.stamps {
+    filter: blur(2px);
+}

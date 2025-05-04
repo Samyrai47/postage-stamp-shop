@@ -1,0 +1,22 @@
+.header__button {
+    border-color: transparent;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 5px 20px;
+    background-color: antiquewhite;
+}
+
+.header__button:hover {
+    box-shadow: 0 0 10px #000;
+    cursor: pointer;
+}
+
+.header__button:active {
+    background-color: #b8ad9b;
+}
+
+@media only screen and (max-width: 600px) {
+    .header__button {
+        font-size: 20px;
+    }
+}

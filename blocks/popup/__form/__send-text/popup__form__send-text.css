@@ -1,0 +1,6 @@
+.popup__form__send-text {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    font-size: 30px;
+    margin-top: 5px;
+}

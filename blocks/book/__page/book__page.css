@@ -1,0 +1,19 @@
+.book__page {
+    border-left: black thick double;
+    border-right: black thick double;
+    width: 95%;
+    height: fit-content;
+    background: #f0eee9;
+    background: radial-gradient(circle, rgba(240, 238, 233, 1) 22%, rgba(248, 244, 237, 1) 50%);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .book__page {
+        height: 340vh;
+        justify-content: center;
+    }
+}

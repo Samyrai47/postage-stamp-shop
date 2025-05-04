@@ -1,0 +1,22 @@
+.book {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: fit-content;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    background-color: #f8f4ed;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .book {
+        width: 80%;
+        height: 340vh;
+    }
+}

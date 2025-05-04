@@ -1,0 +1,6 @@
+.header_absolute-position {
+    position: absolute;
+    top: 1600px;
+    left: 15%;
+    transform: translateY(-100%);
+}

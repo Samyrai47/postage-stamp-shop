@@ -1,0 +1,5 @@
+.header_sticky {
+    position: sticky;
+    top: 0;
+    transform: translateY(0);
+}

@@ -1,0 +1,57 @@
+.book-rack__book-cover {
+    border-radius: 7px;
+    width: 10%;
+    height: 86%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: -1rem 1rem 3rem #000;
+    transition: .2s;
+}
+
+.book-rack__book-cover::before {
+    content: '';
+    height: 6%;
+    width: 100%;
+}
+
+.book-rack__book-cover::after {
+    content: '';
+    height: 8%;
+    width: 100%;
+}
+
+.book-rack__book-cover__label {
+    height: 50%;
+    width: 60%;
+    border-radius: 40px;
+    background: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-rack__book-cover:hover {
+    transform: translateY(-1rem);
+    cursor: pointer;
+}
+
+.book-rack__book-cover:hover ~ .book-rack__book-cover {
+    transform: translateX(50px);
+}
+
+.animation {
+    transform: translateY(-1rem);
+}
+
+.animation ~ .book-rack__book-cover {
+    transform: translateX(50px);
+}
+
+@media only screen and (max-width: 600px) {
+    .book-rack__book-cover {
+        width: 20%;
+    }
+}

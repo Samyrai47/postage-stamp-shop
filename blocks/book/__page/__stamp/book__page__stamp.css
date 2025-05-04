@@ -1,0 +1,15 @@
+.book__page__stamp {
+    width: 25%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    min-width: 250px;
+}
+
+@media only screen and (max-width: 700px) {
+    .book__page__stamp {
+        width: 95%;
+    }
+}

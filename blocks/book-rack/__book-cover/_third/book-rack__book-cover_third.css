@@ -1,0 +1,15 @@
+.book-rack__book-cover_third {
+    background-color: #ff5722;
+}
+
+.book-rack__book-cover_third::before {
+    background-color: #222831;
+}
+
+.book-rack__book-cover_third::after {
+    background-color: #222831;
+}
+
+.book-rack__book-cover_third__label {
+    background-color: #2d4059;
+}

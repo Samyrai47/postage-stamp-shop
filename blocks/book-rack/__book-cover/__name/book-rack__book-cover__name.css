@@ -1,0 +1,10 @@
+.book-rack__book-cover__name {
+    writing-mode: sideways-lr;
+    font-size: 2.5vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .book-rack__book-cover__name {
+        font-size: 8vw;
+    }
+}

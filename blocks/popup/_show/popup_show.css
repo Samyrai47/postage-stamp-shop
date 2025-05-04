@@ -1,0 +1,5 @@
+.popup_show {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}

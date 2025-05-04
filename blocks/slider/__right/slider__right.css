@@ -1,0 +1,17 @@
+.slider__right {
+    font-size: 30px;
+    margin-left: 20px;
+    pointer-events: auto;
+    border: none;
+    background: none;
+}
+
+.slider__right:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.slider__right:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
