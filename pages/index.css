@@ -1,7 +1,7 @@
 @import url("/postage-stamp-shop/blocks/main/main.css");
 @import url("/postage-stamp-shop/blocks/bookshelf/bookshelf.css");
 @import url("/postage-stamp-shop/blocks/book-rack/book-rack.css");
-@import url("/postage-stamp-shop/blocks/book-rack/_absolute-position/book-rack_absolute-position.css");
+@import url("./blocks/book-rack/_absolute-position/book-rack_absolute-position.css");
 @import url("/postage-stamp-shop/blocks/header/header.css");
 @import url("/postage-stamp-shop/blocks/header/_sticky/header_sticky.css");
 @import url("/postage-stamp-shop/blocks/header/_absolute-position/header_absolute-position.css");
