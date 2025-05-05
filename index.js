@@ -216,15 +216,15 @@ function handleClick(bookCover) {
     book.classList.add("book_show");
     if (bookCover.classList.contains("book-rack__book-cover_third")) {
         stampImageContainers.forEach((image, index) => {
-            image.style.backgroundImage = `url('img/cosmos_${index + 1}.png')`;
+            image.style.backgroundImage = `url('img/cosmos_${index + 1}.webp')`;
         });
     } else if (bookCover.classList.contains("book-rack__book-cover_first")) {
         stampImageContainers.forEach((image, index) => {
-            image.style.backgroundImage = `url('img/nature_${index + 1}.png')`;
+            image.style.backgroundImage = `url('img/nature_${index + 1}.webp')`;
         });
     } else if (bookCover.classList.contains("book-rack__book-cover_second")) {
         stampImageContainers.forEach((image, index) => {
-            image.style.backgroundImage = `url('img/sport_${index + 1}.png')`;
+            image.style.backgroundImage = `url('img/sport_${index + 1}.webp')`;
         });
     }
 }
