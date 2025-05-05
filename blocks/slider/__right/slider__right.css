@@ -4,6 +4,7 @@
     pointer-events: auto;
     border: none;
     background: none;
+    color: black;
 }
 
 .slider__right:hover {
