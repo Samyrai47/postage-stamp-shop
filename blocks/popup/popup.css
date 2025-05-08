@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     width: 65vh;
-    height: 70vh;
+    height: fit-content;
     background-color: #fcd49d;
     transform: translateY(-50%);
     transition: transform 0.5s;
@@ -14,8 +14,3 @@
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    .popup {
-        height: fit-content;
-    }
-}
