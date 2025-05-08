@@ -1,5 +1,11 @@
 .popup__form__message {
-    height: 2000px;
+    height: 400px;
     width: 100%;
     resize: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .popup__form__message {
+        height: 100px;
+    }
 }
