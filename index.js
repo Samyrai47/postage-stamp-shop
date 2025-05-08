@@ -241,7 +241,6 @@ function openSlider(element) {
 
     const currIndex = stampImageContainers.findIndex(elem => getComputedStyle(elem).backgroundImage === bgImage);
     if (currIndex === 0) {
-        console.log("true");
         leftSlider.disabled = true;
     } else if (currIndex === stampImageContainers.length - 1) {
         rightSlider.disabled = true;
